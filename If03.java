@@ -18,7 +18,7 @@ public class If03 {
 		
 		//因为有4种情况，所以使用多分支
 		
-		if(grade >= 100) {
+		if(grade >= 1000) {
 			System.out.println("信用极好");
 		} else if(grade > 80 && grade <= 99) { //信用分为（80.99）时，输出信用优秀
 		
